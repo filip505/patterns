@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "npx tsc-watch -w patterns/behavioral/template/index.ts --sourceMap true --outFile ./dist/index.js --lib 'DOM,ES2017' --onSuccess 'node ./dist/index.js'",
+    "nodemon": "nodemon ./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
